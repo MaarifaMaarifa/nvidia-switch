@@ -1,9 +1,10 @@
 [package]
 name = "nvidia-switch"
+description = "Switch on or off your Nvidia GPU in your Linux machine."
+authors = ["Maarifa Maarifa"]
+repository = "https://github.com/MaarifaMaarifa/nvidia-switch"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 anyhow = "1"
