@@ -7,7 +7,7 @@ Switch on or off your Nvidia GPU in your Linux machine.
 For the program to work, you need to do the following steps.
 
 - Install [acpi-call](https://github.com/mkottman/acpi_call) through your distro's package manager.
-- Make sure the acpi kernel module is loaded as **nvidia-switch** makes use of it to turn switch the GPU.
+- Make sure the acpi kernel module is loaded as **nvidia-switch** makes use of it to switch the GPU.
 
 ## Usage
 
@@ -23,3 +23,7 @@ nvidia-switch on
 nvidia-switch --help
   
 ```
+
+## Installation
+
+The binaries can be obtained through the [release page](https://github.com/MaarifaMaarifa/nvidia-switch/releases)
